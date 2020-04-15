@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButtonWarningToast.setOnClickListener( this );
         mButtonNormalToastWoIcon=(Button) findViewById( R.id.button_normal_toast_wo_icon );
         mButtonNormalToastWoIcon.setOnClickListener( this );
-        mButtonNormalToastWIcon=(Button) findViewById( R.id.button_normal_toast_w_icon );
-        mButtonNormalToastWIcon.setOnClickListener( this );
         mButtonCustomConfig=(Button) findViewById( R.id.button_custom_config );
         mButtonCustomConfig.setOnClickListener( this );
         mActivityMain=(ScrollView) findViewById( R.id.activity_main );
